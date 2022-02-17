@@ -1,6 +1,14 @@
 resource "aws_s3_bucket" "buck-drift-test" {
   bucket = "buck-drift-test"
   tags = {
-    Environment = "Dev"
+    Environment          = "Dev"
+    git_commit           = "8d85c30d34b39ae86f6a4e201cbefb8739ecdaa3"
+    git_file             = "s3.tf"
+    git_last_modified_at = "2022-02-17 14:12:50"
+    git_last_modified_by = "31853954+pasqua1e@users.noreply.github.com"
+    git_modifiers        = "31853954+pasqua1e"
+    git_org              = "pasqua1e"
+    git_repo             = "drift-test"
+    yor_trace            = "e1f058ec-34ed-4186-a3f8-38b2afeda3f9"
   }
 }
