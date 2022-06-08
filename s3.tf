@@ -10,5 +10,6 @@ resource "aws_s3_bucket" "buck-drift-test" {
     git_org              = "pasqua1e"
     git_repo             = "drift-test"
     yor_trace            = "e1f058ec-34ed-4186-a3f8-38b2afeda3f9"
+    owner                = "smelotte"
   }
 }
