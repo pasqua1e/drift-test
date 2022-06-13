@@ -9,5 +9,7 @@ resource "aws_s3_bucket" "drift-test2" {
     git_org              = "pasqua1e"
     git_repo             = "drift-test"
     yor_trace            = "26364acd-05aa-4fa5-8490-08b3b22cb17d"
+    Environment          = ""
+    owner                = "pasq"
   }
 }
